@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: cursive;
-    font-size: 1.25rem
 }
 
 .container{
@@ -36,6 +35,7 @@ button a{
 }
 form{
     margin: 1rem 1rem 1rem 5rem;
+    position: relative;
 }
 .labels{
     display: inline-block;
@@ -47,11 +47,17 @@ form{
     padding-top: 20px;
 }
 
-.inputs{
+input{
     border: none;
     background-color: #ffceee9a;
+    color: white;
+}
+
+.new-inputs{
     height: 4rem;
     width: 90%;
+    font-size: 50px;
+    padding-left: 10px;
 }
 
 .new-buttons{
@@ -63,6 +69,76 @@ form{
 
 img{
     padding-top: 30px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    display: inline;
 }
+
+.search-bar{
+    position: relative;
+    height: 70px;
+    width: 90%;
+    padding-left: 85px;
+    font-size: 45px;
+    
+}
+
+.search-icon{
+    padding: 0;
+    position: absolute;
+    top: -35px;
+    left: 10px;
+    z-index: 1;
+    height: 70px;
+    width: 70px;
+}
+ .search{
+    margin: .5rem;
+    display: inline;
+ }
+
+ .contact{
+    margin: 3rem 0 0 1.5rem;
+    border: solid white;
+    border-radius: 50px;
+    background-color: #FF8AD7;
+    padding: 50px 50px 0 50px;
+    width: 85%;
+    color: white;
+    font-size: 2rem;
+ }
+
+ .contact p{
+    padding-bottom: 50px;
+ }
+
+ .list{
+    margin: 0 4rem;
+ }
+
+ #icon-1{
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+ }
+
+ #icon-2{
+    position: absolute;
+    top: 500px;
+    left: 1300px;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+ }
+
+ #icon-3{
+    position: absolute;
+    top: 800px;
+    left: 1300px;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+ }
