@@ -118,8 +118,8 @@ img{
 
  #icon-1{
     position: absolute;
-    top: 200px;
-    left: 1300px;
+    top: 21vh;
+    left: 68vw;
     z-index: 1;
     width: 200px;
     height: 200px;
@@ -127,8 +127,8 @@ img{
 
  #icon-2{
     position: absolute;
-    top: 500px;
-    left: 1300px;
+    top: 52vh;
+    left: 68vw;
     z-index: 1;
     width: 200px;
     height: 200px;
@@ -136,8 +136,8 @@ img{
 
  #icon-3{
     position: absolute;
-    top: 800px;
-    left: 1300px;
+    top: 83vh;
+    left: 68vw;
     z-index: 1;
     width: 200px;
     height: 200px;
