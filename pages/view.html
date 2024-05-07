@@ -7,26 +7,50 @@
     <link rel="icon" type="image/x-icon" href="../images/favicons/view.ico">
     <title>View All Contacts</title>
 </head>
+<style>
+    td{
+        padding: 2rem 3rem;
+    }
+
+
+</style>
 <body>
     <a href="index.html"><img src="../images/back-icon.png" alt="previous page"></a>
 
-    <div class="list">
-        <form action="get" class="search">
-            <img src="../images/search-icon.png" alt="" class="search-icon"><input type="text" class="search-bar" id="search">
-        </form>
-        <div class="contact">
-            <p>Name: placeholder</p>
-            <p>Number: placeholder</p>
-        </div>
-
-        <div class="contact">
-            <p>Name: placeholder</p>
-            <p>Number: placeholder</p>
-        </div>
-
-        <div class="contact">
-            <p>Name: placeholder</p>
-            <p>Number: placeholder</p>
-        </div>
+    <form action="get" class="search">
+        <img src="../images/search-icon.png" alt="" class="search-icon"><input type="text" class="search-bar" id="search">
+    </form>
+    <table class="list">
+        <tbody>
+            <tr class="contact">
+                <th>Name</th>
+                <th>Number</th>
+            </tr>
+            <tr class="contact">
+                <td>
+                    <p>placeholder</p>
+                </td>
+                <td>
+                    <p>placeholder</p>
+                </td>
+            </tr>
+            <tr class="contact">
+                <td>
+                    <p>placeholder</p>
+                </td>
+                <td>
+                    <p>placeholder</p>
+                </td>
+            </tr>
+            <tr class="contact">
+                <td>
+                    <p>placeholder</p>
+                </td>
+                <td>
+                    <p>placeholder</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>

@@ -10,26 +10,46 @@
 <body>
     <a href="index.html"><img src="../images/back-icon.png" alt="previous page"></a>
 
-    <div class="list">
-        <form action="get" class="search">
-            <img src="../images/search-icon.png" alt="" class="search-icon"><input type="text" class="search-bar" id="search">
-        </form>
-        <div class="contact">
-            <p>Name: placeholder</p>
-            <p>Number: placeholder</p>
-            <img src="../images/delete-icon.png" alt="" id="icon-1">
-        </div>
-
-        <div class="contact">
-            <p>Name: placeholder</p>
-            <p>Number: placeholder</p>
-            <img src="../images/delete-icon.png" alt="" id="icon-2">
-        </div>
-
-        <div class="contact">
-            <p>Name: placeholder</p>
-            <p>Number: placeholder</p>
-            <img src="../images/delete-icon.png" alt="" id="icon-3">
-        </div>
+    <form action="get" class="search">
+        <img src="../images/search-icon.png" alt="" class="search-icon"><input type="text" class="search-bar" id="search">
+    </form>
+    <table class="list">
+        <tbody>
+            <tr class="contact">
+                <th>Name</th>
+                <th>Number</th>
+                <th>Delete</th>
+            </tr>
+            <tr class="contact">
+                <td class="content">
+                    <p>placeholder</p>
+                </td>
+                <td class="content">
+                    <p>placeholder</p>
+                </td>
+                <td valign="middle" class="content" align="center"><img src="../images/delete-icon.png" alt="" id="icon-1"></td>
+            </tr>
+            <tr class="contact">
+                <td class="content">
+                    <p>placeholder</p>
+                </td>
+                <td class="content">
+                    <p>placeholder</p>
+                </td>
+                <td valign="middle" class="content" align="center"><img src="../images/delete-icon.png" alt="" id="icon-2"></td>
+            </tr>
+            <tr class="contact">
+                <td class="content">
+                    <p>placeholder</p>
+                </td>
+                <td class="content">
+                    <p>placeholder</p>
+                </td>
+                <td valign="middle" class="content" align="center">
+                    <img src="../images/delete-icon.png" alt="" id="icon-3">
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
